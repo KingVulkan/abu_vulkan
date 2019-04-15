@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 body{
     height: 100%;
     background-color: black;
+    font-family: 'Noto Serif', serif;
     color:rgb(245, 141, 5);
 }
 .proj{
@@ -57,9 +59,7 @@ nav {
     margin-right: 0%;
 
 }
-.card{
-  box-sizing: 40px;
-}
+
 nav>ul {
     text-align: right;
 }
@@ -82,8 +82,7 @@ nav>ul>li>a:hover {
     background: rgb(255, 255, 255);
     color: rgba(221, 109, 35, 0.678);
 }
-@media (min-width: 480px)
-grayscale.css:91
+
 p {
     margin: 0 0 35px;
     font-size: 20px;
@@ -137,7 +136,9 @@ h4{
   position: relative;
   color:rgb(245, 141, 5);
   font-size: 30px;
-  margin-top:inherit;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 30PX;
   
 }
 #contacts{
@@ -151,4 +152,7 @@ h4{
 }
 #license{
   text-align:center;
+}
+.card-body{
+  color: black;
 }
